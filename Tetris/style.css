@@ -1,0 +1,78 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Courier New', sans-serif;
+  background-color: #111;
+  color: white;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+.game-container {
+  border: 4px solid #fff;
+  padding: 10px;
+}
+
+canvas {
+  display: block;
+  background-color: #000;
+}
+
+/* Start Button */
+#start-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-family: 'Courier New', sans-serif;
+}
+
+#start-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Score Popup */
+#score-popup {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  display: none;
+  font-family: 'Courier New', sans-serif;
+}
+
+#score-popup p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: 'Courier New', sans-serif;
+}
+
+#score-popup button {
+  background-color: #28a745;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-family: 'Courier New', sans-serif;
+}
+
+#score-popup button:hover {
+  background-color: #218838;
+}
+

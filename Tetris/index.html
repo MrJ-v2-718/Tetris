@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tetris</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Tetris</h1>
+  <div class="game-container">
+    <canvas id="tetris" width="300" height="600"></canvas>
+  </div>
+
+  <!-- Start Button and Score Popup -->
+  <button id="start-btn">Start Game</button>
+  
+  <div id="score-popup" style="display: none;">
+    <p>Your Score: <span id="final-score"></span></p>
+    <button onclick="restartGame()">Restart Game</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
